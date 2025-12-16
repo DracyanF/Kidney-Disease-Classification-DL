@@ -23,8 +23,8 @@ class PredictionPipeline:
         prob = model.predict(test_image)[0][0]
 
         if prob >= 0.5:
-            prediction = 'Tumor'
+            prediction = 'Normal'
             return [{ "image" : prediction}]
         else:
-            prediction = 'Normal'
+            prediction = 'Tumor'
             return [{ "image" : prediction}]
