@@ -11,14 +11,3 @@ This is a end-to-end Deep Learning project fully containarized and deployed on C
 8. Update the main.py
 9. Update the dvc.yaml
 10. app.py
-
-# Update ML FLOW tracking in command shell
-set MLFLOW_TRACKING_URI=https://dagshub.com/DracyanF/Kidney-Disease-Classification-DL.mlflow
-
-set MLFLOW_TRACKING_USERNAME=DracyanF
-set MLFLOW_TRACKING_PASSWORD=0f15dc7acd0c05ba7e074845eadeb2ef9c395959
-
-# AWS IAM
-
-# AWS ECR Repository URI
-281627750193.dkr.ecr.us-east-1.amazonaws.com/kidney
