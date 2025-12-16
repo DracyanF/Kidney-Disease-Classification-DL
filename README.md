@@ -17,3 +17,8 @@ set MLFLOW_TRACKING_URI=https://dagshub.com/DracyanF/Kidney-Disease-Classificati
 
 set MLFLOW_TRACKING_USERNAME=DracyanF
 set MLFLOW_TRACKING_PASSWORD=0f15dc7acd0c05ba7e074845eadeb2ef9c395959
+
+# AWS IAM
+
+# AWS ECR Repository URI
+281627750193.dkr.ecr.us-east-1.amazonaws.com/kidney
